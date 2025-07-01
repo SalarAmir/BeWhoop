@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Search } from 'lucide-react';
+// CORRECTED PATH: Goes up one level from 'pages' to 'src', then into 'data'.
 import { vendors } from '../data/mockData';
 
 const VendorMarketplace = () => {
@@ -39,4 +40,3 @@ const VendorMarketplace = () => {
 };
 
 export default VendorMarketplace;
-// This

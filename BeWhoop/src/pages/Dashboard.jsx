@@ -1,8 +1,9 @@
 import React from 'react';
 import { Search, Filter, RefreshCw } from 'lucide-react';
-import AnalyticsChart from '../../components/common/AnalyticsChart';
-import StatCard from '../../components/common/StatCard';
-import { dashboardEvents } from '../data/MockData';
+// CORRECTED PATHS
+import AnalyticsChart from '../components/common/AnalyticsChart';
+import StatCard from '../components/common/StatCard';
+import { dashboardEvents } from '../data/mockData';
 
 const Dashboard = () => (
     <div className="max-w-7xl mx-auto">
