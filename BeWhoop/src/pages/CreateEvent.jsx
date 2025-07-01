@@ -1,7 +1,7 @@
 import React, { useState, useCallback } from 'react';
 import { Plus, UploadCloud, Trash2 } from 'lucide-react';
-// CORRECTED PATH: Goes up one level from 'pages' to 'src', then into 'data'.
-import { initialFiles } from '../data/mockData';
+// CORRECTED PATH: Using the '@' alias.
+import { initialFiles } from '@/data/mockData';
 
 const CreateEvent = () => {
     const [files, setFiles] = useState(initialFiles);

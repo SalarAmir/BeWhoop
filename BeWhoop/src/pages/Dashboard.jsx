@@ -1,10 +1,9 @@
 import React from 'react';
 import { Search, Filter, RefreshCw } from 'lucide-react';
-// CORRECTED PATHS
-import AnalyticsChart from '../components/common/AnalyticsChart';
-import StatCard from '../components/common/StatCard';
-import { dashboardEvents } from '../data/mockData';
-
+// CORRECTED PATHS: Using the '@' alias.
+import AnalyticsChart from '@/components/common/AnalyticsChart';
+import StatCard from '@/components/common/StatCard';
+import { dashboardEvents } from '@/data/mockData';
 const Dashboard = () => (
     <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-4 mb-6">
